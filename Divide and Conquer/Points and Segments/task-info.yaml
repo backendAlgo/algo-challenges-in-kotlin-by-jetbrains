@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 90
-        length: 132
+      - offset: 87
+        length: 316
         placeholder_text: |2
               return IntArray(points.size) { index ->
                   val x = points[index]
@@ -14,8 +14,8 @@ files:
           length: 132
           offset: 90
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: ob8T+FdAWOy04JFmf+03FXc1oE/UpowqbA9C5bQ7GiRNxp51cm30yHVMJlArOM7w94lHfC/bKI5Fm/3Yk7qdexjx+uS+cRp0Ee64uSM/5dSwsZrHBSwZbXVs8hlvnj3mRGYbqDEj4QTZbiD5BMzB8iTpc+bluWaiyWYIpmY+m1egMEfiIOZ3IZzQcNhTXD3uh/4SC/fpXEOQJIoouL6oCfDxKDEzACn6v85lXMWg+piQpsAn/8eIHIXaIY9keLR4eZqupXFujiFAjyIQG7F9uo/jm7mHZAjRnGfLLrPE7CA03FnkwSPS4rwAeSFrmcPVG6ktTUcodAvoa7ThcMjCLJACO5QYzL38xERgE+LquvFuQ1NRjshqxbk4Vl8FpsA1+dekq+NBLBuexpTYlHaXvm/E35nDFqAvaUJW5PnyBMuJ2/cu3ZAtQh68UcORfxU9NuUJ9OFigDU0DzRiVcioUcwa1rfiMWeQtusQN/hOfpwxl/hlK10oAvFlThuyK7IcPQ5uT/cW6r3apYsrSb1OrejWzT2WH3k/rsEMjr1MfkmW2bHCHpoog3lQkrcjROXQrhyXiYNwWeQc2Ls9BKf29rHfidPEOsdQQLxRqGrvAb4lQPBpN1Qrv0aD1BTgXc66/qakEv0Cj934ypXf1hywDQ7KhS73siNL1HnGUfn2zY8kn+TF8anmxsxQ/08IfIt1KbAOQM28WPo8LOtvmLbCHB74FjcGkg/SpV8SJzkW9zDdf3tQcE7YWaq1QjlGDiKpVqgN9idJ9HcaWQ4X+uBA9TVFzyVkMAiibYeD3Hb8EntFUG4mvV8VwrcoW16rmc0C6ChBcoYH29/MbxoigW+gg7Wt2O8zO4NptL1Zr87bPchPwN/EPXNvBDmtANbXUPqpzSfz/06VNOMlrq2BS4u3RNMFAJBUDQB2OoWiesMWzT8Jgcl8wO30tb8RuKRD4R4P1ub7k3wiQJkzJ0kx+1927JZWThW6EgwU7A8dtvcoZqbfz0LlUHKnRyFnh8piEYh2+luPA7P0eAsy2rEO3SjDuCegXsSDFzUFPblCtVS2ulY31Lyq0STyW4wZkgbqU0cP1R3QWC90G1yoK6jaFhWTUXYYBtfd1K7sIGWgyo+tXUR5wfvfZ/Snc0c93h2KMDKv
     encrypted_text: FC+ut1MohsFsQZbliTKlBoDPWEEWlW16UCbLPIQvNAR+iR5KtWWAAV0wBuSgVkaygtCqZqox2uyXH+mQcDhL0pIQuQTPt+Zl9NAvJtHUBdrMQSSHwN5LwuPQs349Nw/aApYcAlrAhbnI6IdOUsHyjVHrhYVhZxTFghlPbw6VwAB3MbgO9AVjfcDykTUL1Kpc5Kw/+dT+9b2jz37Vl/c8KvV3FYTkFUAI2KGFSscQ/KWGD/YQz68+M5caheyHZ88c3VYhrbXfxaVGdNVYa44qEj6sbNgvXGEDz+Iy+6lqt3o37pFEmlFUtJoId7kPTc/B
     learner_created: false
@@ -35,5 +35,8 @@ files:
     visible: false
     encrypted_text: W/pCCGTEXAU0jbXR6gmr2+O+pJZn/ZwoN6aZ4Zhz/Pq3eBJGetRXSLfLjydOsUu687OMs0tOqTPihStgdcEUkWhUOJMY8pua5KRRLark3cL0qBvegzM4HZrlSyaee2Hqj0bxUndxSCqTnaiIyo8ZCZ5ReAcVbFUU+RITo9pFSt2c14ZCKnYnlRHD6UK21qaIgacA74aLpOITdTNt15VlfSl8kTWKNk0B5v+kYZOIWZNtTbCGxHD9+62M1cYbfZnDc+qQ7QYjiX72HES8Gg+4LipgH3TT3RpG3Bh0oJgfKyLm+2G/yYOg6pMBx6T44QJoC35u0dpT6RyGlJALkD2RWmsFnTkxcbEP8NaZkapYYKpyYWURi7YJi7MW8KsH+9UbrszeI2Jj/XVtcyOi9It51OERmEq8IJImcr//f6MwSXmUGd2wMWgSAx7pg6gNxHGWk9PaFHmuUkM8z0dDNWWOn89EkVbGNFUfnIRjdTeXM0MIc22RLfb3Ajco4fDR1obmuSdeG0rjWU2EgEpD89Fdix/p3NnWPROoYI+rpBUVFpmILrr3DcbLWTwROehXGAzueIJidg89nd073uevca41i+KRBCDrfokE3WBVepcq10AQuVi4MY5LOJyb3roK4mgVDB+HZCjfxs9eAwYsKbaIxYPD5t853f3foAnCuJKLvYoMuPaEq+oYzdroPkh+v+8VnSq0gYQxTMGq045ro1kRzNyp/7TADulDjww1QpGwOMH2Te4LIfh55IjErYs7wWVO5mJ9GA9rdaNqmWkJWqGEMxde1eC5w4IdTP9aCBzQ9PTLG5waV9rw5njuS/MWjj63fA1utZpaC3Qb+4mAZBK0Ivc2muxFC//8av7oda1J4UIgtHHU21jQWj67fauvR0OZzuPtwotrSisI/B7HFJANbu6BZW4PflbMvttNsu1S3j5UfJgVP3Sl1Xe/2D5v21DvBZ+JS6crGcqv97sWW4Ks7jpo+nlNZklYjpjm86N4BUfar6gns0fdHDaeDtu+upX533JJjnoSNUue3ZiKqXSvXMiEkYDN8Ykd0LRNnm2XNZLqZw/bfHXQAiG5vRISNqT2O7rsmxmfTtstXgwtSsl2r0g8sJiTnZTL+dmRE/nElLi+iQXIMAJaoVSiPxbU/71C
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Nov 2023 18:26:00 UTC"
 record: -1

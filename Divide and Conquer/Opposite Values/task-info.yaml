@@ -3,15 +3,15 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 57
-        length: 24
+      - offset: 56
+        length: 35
         placeholder_text: return str.indexOf("01")
         initial_state:
           length: 24
           offset: 57
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: 2oU9zlz1UY/RqUksVx2wjhGMtkfnQXispKCrD1rL5Z7+liNjf3YrAn0nldTU0PfdcZ0DQvVOJzMS8lPZZR9D9sKrV3uT7+964jP110P7qEaltwzvco9cOoDbwAf6JCe3a6OVC/F8ofnqftZCDREMfXQNCuegvxZaSj758B70XiknmgTaCruMJ0Ym4k3j5FVfVUZoJr2XhJMSi0UQ/Cp8g2rXdG8XG8yzK3+8V7ZjnhJMNgtS66qoXJ2r1jqhZ2JT6f5QLe/BKq615gljyQql+17NBq4c3BGudCjvhin/ol/1MUczw7nT2Eio4CXVpZLiqUVdGtToAz3WMU3AYksToQ==
     encrypted_text: Bqiyx5IKBaTvmxls2HajLVC20ydNWmQAptrfx8iNZCivpIT2/c9zV0Mh1tdJFEpzxIJIPMq7sj82feDG92IoqDsnHXelOyFasiiO8f3eDCprKbb0Klrx5vLFXflG2PzB
     learner_created: false
@@ -31,6 +31,9 @@ files:
     visible: false
     encrypted_text: MI2OZl6BnqFwCRGTm2maX1jYofeM04lqLXnBzRwMXmOnoXqJWFab5x/ZOLX6wQQqZIjVWxjD6rMTvlgiM+v8WXRFP9ua8K7doTtiMBah3Q+6Hm4k5EQAB/gcQiTcmiWEWU06fcG1wOzf+gSt4hztWxAEF/t+ZwiTfuHsusXHfgHoh+UnCFjCgZOr7CalcZkTvDUsSmdJFvL+MbpWy3dAByoXlS3w3IzSoU4pnv3hCiJRqun1SocRha/0Z+QkX2Sk9V33lUHsAj5gZnsr9fbY/mKDiJguwshpYz6iXoNqvTYsUKJ3wiEpP8r5kFIF35O/UvUWCRJozTVa48G3EC8OD2SNHLpR0z2Iw4LgQLrPtpcLrV2nMDdgYU2k4M3atNubkLzBJdiAWPKWZ69LR4/ure/+K6jQipir8PxHfTzrh4asunUOOWlSK4IH43VoBmzdNEXqzbm3sxvfT6WYipIG4LMjtYDYJTOPabQdOS1UVbdohOTCb9nwjc6clcrgtXI9GOHuBgZV6klIlyKJpdHiOdBkJix/zQI2ooQt0FHWf8uI2Bi4ack3rGC2UmAd1DPJw37nWhocpi0gPBwYBZMQtn5uyn8VaA4WJRzaNje4HBpwo7MLbGX4fsS7n4++xtDulHd8S1JGR1hxc8vKudbO5Iriwovd3n721nqK8sSwzHzOloQOsKZTEqGHdASxehrk0AudfYt/R9GDYqSOmS8SyAV/q+avMsCPIkAYcXSeMHsQZ3hszSCVUrxPjXvc3RJohu5OrwSX4UaBznsgtdscogMbn23U9V8SU07POd3UNcNSt0nMyxQn1vd7cWjsmXFF1U4W+8Wo0X3sHh+DO4ALYYVxCHkF0S+1YK9DbPzOUxn4X36HDpx4HVX9dBzBsm/DlcQYppHK9w2sD4AVbJZu/xdngs2wpsOnaGI6Zg+jfp7aQiwC+XQIQqNo9IlaKj0m6DkTiprqByzpraPez/oWu7i1EDZYy1OPfNRw83r6AQA=
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 23 Nov 2023 13:44:00 UTC"
 record: -1
 solution_hidden: false
