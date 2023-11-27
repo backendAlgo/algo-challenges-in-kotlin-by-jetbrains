@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 0
+      - offset: 1
         length: 46
         placeholder_text: // Write additional classes and functions here
         initial_state:
@@ -13,14 +13,14 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: YcMtJSyg9U+qeik1mhrS7BT0PMOIX7gmCBuIv3kCRbt7aAz0ypuPRY/BKEbDuzZa6LQk8VJu3wEbnOhRis2QY3lnayFULInP4Dun/Adb5J9MUomTMI1oL4KZ5driyHfokdUsZBLAJBUH+UhzducPe5w3n7iJSez0GVuPo79DsWc1glNNLa68ccjNSEhsNcWMiZ23eTATk19XZUXjGFcguean6DzlMLfHYj/0WPG3RAIfgpG0+Mwcj5bqkzYWKx3tTyXnTINR9yiev7uYsFiFiH4TsOtDuVQ5VRJ9LvNpURuHxf/17BATdR+nG/hcWxVirhMGaf9V2aoXLcgPIy+9ACsQO+m05qS8U062Tc4EZ8xAM630fCjxVeceW0jq9UNjRWiuuqOX/hUV16dYwZHE34a5YPpEZbWXM0lPf0mUK5G9AL1xnZqVPGVSgzOxIN1/zQc304kRFU8AOkHspwMdYSyBK3mGROvhJTz+MFAzN195KIGmuzMn+JaI+8qEqsy9fEyp8Gr5zmiTogE224UQ4+5PoOuItsw1z59t8hzA/8hdkRdf89b1AjffBIWGSGFHhbdb9XgcCyu6Ygyx7GxPjhfspIBgTFcQE5gSFGotqH+4TlW4o4MkOXcN2HKbO6oFxWU04kYMlZmKoDDrLJAdm94elNsfkDk6+jikzybGEVlAAMk7v1Yx11GS+dRPu0WnlwwzB5ZDUmRgBsjgsAqWNTkozVjhTad8Utdyzsst6E5Zhcn1Yn+Zy9lFkychAxwS9wpbQ00onraIZ15VWTqKfRRJqpRDPZcUq/169Q9To6qbThhaK5xg3QcI2jEH655Qf1p+r3tN9ECiXOLahtifeaKYIaSBccyitIKgE17JotH4Y33cqVdJaqkce3uFgjA3OWK+5bTLvYWXCE4wGAqrjZU927qWZ7gubYB1Yi4t7jIp7TCiFrwrzxD4x/znXYs5fDXSrXBiOXQxzQD1dSyHtl0M9b/yuPIEmBUPxuDdtKPUzNEnFl2MJf81YRnRfYWqRGurgnwJWW9AboEluGvW7AZmwnUk14A/a4tBVl+GMu9C0X9+l7b50Han+tRTVyJGBzhkza4ZUsRjENyrbYLUV8BRLv9v/BWk5Xn6iM/HUQg=
-      - offset: 102
-        length: 67
+      - offset: 107
+        length: 27
         placeholder_text: TODO("not implemented yet")
         initial_state:
           length: 27
           offset: 107
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: Lc+DRp0J2mY1hBV98skxpRWRH1+UQB3Aa/RHfMrbGoi+czHZNRMWTMzAopfaCcd6
     encrypted_text: rhA9VcJzccQ+iFVrOtgNyvqiKDm/gFMt1bulERrZMVTgQZuJMxc1STJhpWCGSFiEfqHMRNUSoUzlinlN8lt/glopXs7PSGI9eAbHdc2fsj6RusIPyEKNZ9RZmCEWspWpJ4GMtRlhCYrHzjcc3dKDo+AGsjv4cvI2IhaGy0lBmYAh0VHf/iKLUx/IczOxLIud
@@ -45,8 +45,6 @@ files:
     visible: true
     encrypted_text: a4jgQfDmdCzIA/b5lhDWfrWjSiUX9TBN+J176l6tKlfQcgXaMMRdTItw5SPur3zJoTu4MJ93kgWd5r9EweTkQBvAV6vNJc6RrL5IRPs2wR8bEayCFFmi2fFvf6hgOIDQAg6arWgGDFQ15PMd6ZRlvtMSs+r7eWlNck4HoE3dHSdFJDVRa4B379Spy/7hMQ9jdDUEIHWiu4l0+IIiUQAz9hAE/DSvDYev9wHjXIuGczz/p+yIqm0zZIgzqT4JK+Q3PWwDm2AYFsD9gA4Nn2TyUHkSZfhivYXLM1Lj4vNHiC7WDA5r78pdJjrAaEaN9jRmrm5uh9oNCUnABm9T0/QKjTXyvYcYoTrX1DyoS/guAp/85wMRzsmHIK3Xi1WlORHRQWpC+HnD4ohLy6tfZ/2ttx5iZd512SC4jMkvoZbiMVJ4/slIAsGPml3ec+id8RjXbVeJITFWZ1LzMjvjfPnIbZhqj24pYz9kHSOcUzlNZIfTbivgKzgAbwcYtYBOK0Aww38s++ad3X786OIzM6/EbGMFB5ep+8BwRfmKlUfI4S7cNypZZFB1LOjiCdnsmRvx9v2efaxB9C+7kFfY5Bn7neLX31VF26ZDdrNu9y0+5TyrR4M4mhURTCK5vNVl0l+lOSqwBka7P20bQSVbh1sh34HT539JJYIbAL2SrH6vIkA=
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Brute+Force+/+Generate+Derangements
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sat, 18 Nov 2023 18:28:31 UTC"
 record: -1

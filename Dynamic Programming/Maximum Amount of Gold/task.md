@@ -108,4 +108,8 @@ ${Knapsack}([1,3,4], 8)$ and uses F and T to denote ${\tt false}$ and
 ${\tt true}$ values.
 
 <img src="../../images/gold_3.png">
+
+Source:
+[Ace Your Next Coding Interview by Learning Algorithms](https://bit.ly/acecogniterra)
+
 </div>

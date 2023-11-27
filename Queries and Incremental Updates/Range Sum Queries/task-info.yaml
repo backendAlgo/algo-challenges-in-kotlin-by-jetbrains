@@ -4,24 +4,24 @@ files:
     visible: true
     placeholders:
       - offset: 30
-        length: 99
+        length: 47
         placeholder_text: |
           // Implement additional fields and method here
         initial_state:
           length: 47
           offset: 30
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: 1pSpQcw2lGoY9xRGWw+15S3rS0yJ1STPehrgRNnunDpNH6uGRyz8t2zsahT3diBPD1F9i2e7oHzd4VaIqUuznwVHj2PLxxBM64iVD4ZlO56KQ8Bl1cutKB3z7v0xNyowDCtsc/pnxSBnjXMfmhNm1ORT2P6k4gjFfZIo1XfJ0wyi/oGbZwP2b3Woeh6rCvqmi0JBkjjE3sXgHZc0++lhIHOs9BPCh1ByDfOlr6dFM0v803Nup7eRmnISo1lbLBpZeZooShhGJ3H98ibV+XEvkLmIx+nK4AgFuWBnvIkbs1vwJdooRV5zpT0euz+zM6OKEw2y1J6SYKp8NNPaCeindz15Eu3uJVGEm+jMlTSJLAhQF5s1EYerjFPOSfgZzf5c7lF3yd1mdkiHQpNDBKSpLpGLRdnr2hxPm/aZ0mFR9yI=
-      - offset: 176
-        length: 47
+      - offset: 124
+        length: 31
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31
           offset: 124
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: tpa+qmATLrJtYbaVBkevfJzSSywpRQ8ESeLHo88lrITJb5rb+Yzeyuh/ilVQxaVv
     encrypted_text: S82309Hws7KIJXj8GqA625TS8FQ+zZVfvZjern/vCthEXNLEENfzJIVJ5zkNiOWMeCw7SLdK5aNlaJhdnaRg/r+DMunrlxJtwz0j5reXN+3iFrgxHrnfxAeu5JobSGuT8Kw5wC1Ct+taIu32WdakhtRABskPgVpSvEHvQCCY/yQewDIGPvBsaEa/z72v3KovqERZBlm/ZAmeK7/nP1zHsBvxZjcJ4MV+IQiKR8sxDsc=
@@ -42,8 +42,6 @@ files:
     visible: false
     encrypted_text: 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
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Queries+and+incremental+updates+/+Range+Sum+Queries
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 08:28:54 UTC"
 record: -1

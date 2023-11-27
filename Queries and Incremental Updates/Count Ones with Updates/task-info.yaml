@@ -11,35 +11,35 @@ files:
   - name: src/CountOnesWithUpdates.kt
     visible: true
     placeholders:
-      - offset: 48
-        length: 105
+      - offset: 50
+        length: 43
         placeholder_text: |
           // create required fields and methods here
         initial_state:
           length: 43
           offset: 50
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: 1pSpQcw2lGoY9xRGWw+15c6q84+mgLJKAWcVEbYDGy7GH7A/EIUOy/rCkxBAmjObsz186ljDaPLz+VXrcK17nzJOI3I6gqa2C5NlHgy4QODexJ08VaipkfwaSiOBTMO01rSWWCUh8MeBosJwYh0bZg==
-      - offset: 181
-        length: 7
+      - offset: 122
+        length: 31
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31
           offset: 122
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: rv641lv9eyb8p9/+bCsFHTF3BHKQNPd/i+DFoEC2uEE=
-      - offset: 217
-        length: 203
+      - offset: 188
+        length: 31
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31
           offset: 188
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: FxcWsSO8o/poCIrzJeElmiDotm4thjhh54hf19XYSQm1esMU9J6XMWpQxvupw/YzoxRNUQCpny2L1Nl5Y3g6b9g4BMvF5sJzLpWzEkm/SnSOh/PZ5vtwVuYlok8AiG8hKkopC3CLsCbROMWSGqEtvWEX/hFYCRZzeKrGawT9FYV8vQkOcOvnF3re2HW03a4Hwn7Js5ODROFwiQ3UftYNNw==
     encrypted_text: iXE0EDAB6Zl0gwTwVLvaVrZpJfZYH9lJq1L9xb6Z4GzSYEGTCENXYSDUt3cLkRYFmTravLi74Iyv+id8WaUYI3lpijtAY4eXodvPhtVZTwaB2U4l61A1uxWnWJIur5gbS/sDMACBvhkDb6Rpoj5ejVxtLCVLvrdbQG/EZm2ntt/ItBB+WayXWpUAgpkGIjJJkkzAEMiDf8jHZBzVzSY5pvchqaSJi+NKHFbEGFS3lK0MT7CJMq1WgE+gJoMD9Ew9K3X3T+2yOqpQqKmJBfuztuWA/JVwlyOgNki1VbYj0XsLfgOVXhuuTFmtdsekwaOG
@@ -52,8 +52,6 @@ files:
     visible: false
     encrypted_text: VugTgtXeR6j7ftc7GHNZ06N/1qsArvWT2WzkE+4/Bjr9NXnVH++dudiabSoXM8ziubtJTlb9RxWaeZyu5ssfW+yO5dOLVhtNQAsDTY7PhpEN5QWfS1uEPu5W6eF+kjnOD5TSqqBqI1ZPChz0sKiZSPwmJki0PrtkgDm1jr5fkZ3NX0jQzHk1GtNx2+VNu360Z+eI/mMBucI4eSEVs1jVkEfcUAUudrqd4vw0OquTk8Az+WIQzQmY7bTp5L2E+axpgwSAxNEJYDQfP739oXWV4A08p/kJ/lJgi69eM23Zl4KkllnAxi1AblRfZyl3XJVxMS42EpjbTbhlcabm8YC/+gveNyXz3bzSmlWTflwAwiUpznbk2B6Zp/RgaGXQVxBCoMPMD2sU5nQFURX476TM2A==
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Queries+and+incremental+updates+/+Count+Ones+with+Updates
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 06:59:13 UTC"
 record: -1

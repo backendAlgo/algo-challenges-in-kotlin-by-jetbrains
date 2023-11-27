@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 24
-        length: 241
+        length: 234
         placeholder_text: |-
           fun maximumPairwiseProduct(a: IntArray): Int {
               val len = a.size
@@ -20,7 +20,7 @@ files:
           length: 234
           offset: 24
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: KRY7FpKCH4XNd9XlhsypeV/gYvOf7VP8dj+BuaWKcs/1CagvG5j3gk0ynXxAcuF69huNDVNUjwLtXPBZQjem7Ulg8A0qCTOLvM9DaHDm0A//w81aCfZ34FxVSY+lg6f0SLJF04uw8Ct1dJhbeWqjO1o/1F22YJE6n4Jc7fC6oyB7zuZI1sEdHWJ1bDu5EwMKILlFUmU/kprIkRWhdq0N6dLA3vcgrbH9xZNihIoCC0UVWPRm+xjmoH5hXr1LbqYDfPvRWJWJUy+9GTjZ2Z80CowX2/JjSXggvtj4PKS72RIUh8NYrUUCugZeEwQ5xJN0jUGjZ1THvLewAa/vk/INmQ==
     encrypted_text: E1SJj7jPmwPW/Y8TGBLEkhCW8BQ3PerBqzyNKoigZsejsTn/n+6D/eQju8gfBXFPtMylN52JoksiAoDMX98B5gPsjZRq7YHZGXTxjtz0IP/0KiIAIL89jYBChQ0LEIpl69RZc/EMhEtsDIGfjJWD08KWKKOlUM38jnIrr9xQGdC4QS0hMrzcPpBfr6Qlyg8ine+ei4WTOcj3yUVTiY68JOPf10eUGA2tTSZJA5faLELbhxhdLVmoPNhhVHxaxUTv8jwGDqoEOCCuxZyK1KjjE7YrKAqyanbdEfLrU5mbBUTd92AjEt67z9+SeIhMpU5gM2/u7TLd3xXCEDDvNCvNg7wjCFT+jKPlinUGkK5EjiM=
@@ -37,8 +37,6 @@ files:
     visible: false
     encrypted_text: ITs8Nv8EH6QWJG5nufD7nG8aCRRNu9s0lIhzUcCHkspqtrXhkvgETqwgK3clQxWqxHPhg5TU04NONFDDQnQRlHpoHEynug+LLcHImSQvvv1+8PP2D3PpNNZp9HBmLnX/asW8KFDRcSrLYTYHi++xdTy0IZZEYHH0BA6gpieqL7jBHJzTsfYYNI3b/f7rM1jBgdY4FqDqX/v+pSCfx4uCYMsRbL3VZ3IuKv8f8Ek22P0TkLxAtLAmC3T8ppiAN+kU2MZ7d9bhVPs4pVvaH4MneEeXbAhhVfcdUmnGWDAxSWtpJMyyu0fL71CYGIj3tbDGs582udMgMVjVEYBO6Rj+viF+jH7iPazRx+bf7gZ25L6mILOa1T0oksWnna6VMIVtHIHF4WJ46cukZNEsEYYRXogYEwOqEYyX0A3Oyvu2RJdRO1jJqMluFFflBsw4b6cV0cSPG7qKSYsVFJOmFtBflV871YGpynUKm2l5smYb3pj9wwb92nt3qinVQiQnbeJfE11DVLoDcSGBdfJ8aP5pxLR1hpwd/cnQITyW5djseGSdaWeKjpT6XwH+r2G9ktD7eg1cLEBB/vkUmbNwckzIeX9zfmdFJGth6nNlHgZbmOI4oLg3IVocYmSnXQyOUqwjMTNm0HzTEIXD3U6bReurErvL6idY1Ft17xQp0Fx9J0BnxeQ11NI8txX3d3jUL+wDWLMy3mDKE9iHSWRI525w5/f+Im/WhDDm+KphNMlvHz5u/JD7e3cex2x2BWrsMNjkkHFqLdK9cOs6yFImjYHfRf0WgZ2R1VnYSBwSd6sgj5unREKBIcQ44e4eZQdJ+wm4aze2glLAF/k/+ZJOv0Aj0HSLEpBlGySIki2WQLgUrOYHwLbEMgSwBpXq+MNDTqda/Tooqt5gwSCb7yeera+U+cmaWCdBu7hf4O+D0lC67ZQa0TigVOt65ICkvYuX7OtaDKszM4/EViltWoBUoWhzdEytWAC6j+qX+9YWwmZC075DV0hpsEhGPxSYeU36hbU3ae1Wk/6BqufjRNhQx9saWuP3FsEpgrojOJVP8VBOBWN/q0sWhDJvofdss2e7921qlQ8hbz0LaIJ1A0NSjmmIFFRJjXs3BeB6ygbocD0ZbWhRdJeGb2M3HnUdvprdH4BdEk1hradqouu2MAAujZW4jfklyCzZ1n3mERPEHgMsYlLPbkiynZ7KOejI+4lRA6Zhew8+45JaD8l/NNi9fDqQ7e2eIZr2FTjA0r4uDsgOAFcur+vxe5rk6qOoMqFzida4UbhTOpIORh7XQQ38RrLtDK1jhQi7rMqzBnEKNXcTeYnUmnHssr5wfEGKvtpS2hdJzNZVFPM4foHLpXs131s2MSmO+ThgJbZHBPAi97ydLhQ+0XBmh89s76Xxnp7fgoiVKCzaJEGYXEAqvZVSXIa0eFt0F0M5aeBt5qrJGZhabwdX4o7wyBCd6RISTOUgmXpbciBqrBhUqFCyAXRhz7cMrx421IVS9YcMukyNRpNmhUor0yVxi1NNeJdKXv5I53LGhgIZfjNjKzaxAnq5BH7kiVCtfAyInUm+7nnUKNF0M8yNVDNQtgx+hc4C5lH4Dn73w64IWOTuIUxrCY08yjN3hRH2kCUmf9GZOmTSrHEfxY+zm46OluzV9dCLDE5VdZ6Ih0QIz8tWDYrqCItJBdqyUGUE6LO6jdir6fB/KzIwIcJrECqFvkHPAcVCg4tythbXQNNCyzhePL48TghHbYmaehn+er6c10HDu9e3tlbhX7ZRuLAVvarsjBFow1aEG2v4iNhg1wmwnrixh+4uymv/geE7Cbn87YH8WXfyR2c874mRwI2kXAu0Qdc1d/qorVYmW1y2z9BfVLCb/opRnfwAyC6M6c5ABEFO/3svmRYNsntGSd9oPPzpRjw9emFBxbO6fXbV7p76N29K9mg2PAqk+YAtTIw2jsZS1c9s42/rSVGuXDBNUOjs9VDdKjwwSL1qXTxw35p550jRTcefveS8SMIR0n8xUVEHkUL8M5LnOsnHVMUsf4pIq6JEezWrF10wFggo21PndsUfPHVYHxXj/HvWkOep/fkYKJfEvbO0LJJkCK/WP/RF2okikaQPgyuOueHkG6f4Smoo+0w+rtzE2CGxK0i+uq611VY0wqlJWxBm7lV2o+Mug0O60aQvTthlNFbtQsDifa17ImIM0nvi1a3oEcw+XI3GLpVLouVLo54LEVfsZmtonwRkvZ3jfpfsuvdNOYLEdSLL29EnK2fZM5kCmi6fOQgSxsqZm5z0W2svYc4LunV/H3eu4dCjFci13FZ8TEsJ+GXsi9BrZqCvlvGIeQYl7GDwF/kz6D+fDWQA3gY/pKDReopAU2WL+LoE2Eek2NcF9xNqIHi6UWT0h7tMWRkNwAdcO/0wkNUrdsM0LW3noHawM5mvYkPrBmI0Dmd/M5V9SwxMOxoQ0SUWWdp9K9QN0xZL2RuhBK5f33hrMai9SlHrR115Ccc/mzR9pyC7gk6X3KQVC1/32zUpTSR5WZWgKjSSX9MZQxHWLcnvS7evlN9uOWQELx93HX21dKaCFxOz9ukAhZvuRsnJDVQwAuYhdXmSiLuo99cn+kCyDIa2hlTpAWB6D84RerKs
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Warmup+/+Maximum+pairwise+product+fixing+integer+overflow
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 05:04:26 UTC"
 record: -1

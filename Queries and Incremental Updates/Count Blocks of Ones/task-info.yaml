@@ -3,14 +3,14 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 48
-        length: 339
+      - offset: 49
+        length: 27
         placeholder_text: '    TODO("not implemented")'
         initial_state:
           length: 27
           offset: 49
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: 1hp89bazEJV5BKyR05hmBY4rQrC6rCFEXTJdPdGA3OLDibCsWSWpZpo01ZeAlVSyQQSWeiuVUCiilpHnjiqt3AeAsUQRQ6kVlHNXfD2zjbN9j0JKw1OI04Alt10CGjOFFTXUpEM1gMFdzGXPGWO/Ohq98k93Rs+45bjvmQE3m6SHLONcE/rpm7uyA9LOwOhblqTK4L0Y3RrXd0yjljLEZVFiv+s0R0u8TDFZhmQBWOxZS/EQr8NJ79shlK7U+QY7GwFYRP7FXANCDCtIr+eG4NndVniBpKNzKfTyt2KQfRabxcYRPsqI+eeGRJ0oawMtvBSCx6P055V54HT1wIMrCp64XPT1y18e7wJHCd9ko+A=
     encrypted_text: DQwm+35PFtU+jeEEAT5wyD675nKBKkHvPluHbhqtkqo48DQIya5Gj0X0rCEp6qdwFAFGuKN8gY8GMqFAKqg9rySfNFNNU4CIe5KiEDS6bH4=
@@ -31,8 +31,6 @@ files:
     visible: false
     encrypted_text: /sjVzhTGL3uXF2nRF6tcYctI63NezjJ3koWn9GOKAbx6cr0ecx29cech2VrkDddLA130cb9Eu7S9uRmyokvb1V3BHiaAybMCuwXRVogVUbSpzklAMT2NQxDP7LXtsy8/at2rzbsp5CMEjNTwNsOZ7RoNR1frl6AucytMehnQjmD3ih1Aa6ADgIJOiKSkFev2EaIO0NqkpiplDLwGIZlgaVVSG8nDbaTnLg45IUKXmhTUSRrmN4CEcaWD76leqZYP2sSdGSEL3ZLnhRs/bdNWANVcPzBtN+LGq4Nmx6gti3oHiSeAhbGsx1xpRMlUMqH74g/DVfhsFhSAKSeRGzy7wFRmBfe3ILi3kxXf+VqjsEg=
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Queries+and+incremental+updates+/+Count+Blocks+of+Ones
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 07:02:52 UTC"
 record: -1

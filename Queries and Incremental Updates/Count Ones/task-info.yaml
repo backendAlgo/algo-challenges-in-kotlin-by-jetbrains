@@ -4,13 +4,13 @@ files:
     visible: true
     placeholders:
       - offset: 41
-        length: 34
+        length: 27
         placeholder_text: '    TODO("not implemented")'
         initial_state:
           length: 27
           offset: 41
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: 9ZzjHctwZnGJEF4cJIpXIzNEkOvvYe640V1K4JYWi/vqTGqXgNQ6BLT8O5bq0JAHhos4jUqrmiBnU0ZFy2aW6fO6A1ZYfilQjFL+U9jHvge39wDEuzSoI247YKNLCQr6w4xJzVdVCsEgNO/5AvXwZUxYd3HI3qjw7cFBafTuJuA=
     encrypted_text: RSumlAoVCBDzoAV7jgNw39lHXn4ZXGhe/yA97vbnV1hlAt6i6+HmyfxPsXYCmMqTDxudibBMpzM8qE4MQz5Ynal0F2Y75BwB5X8PKVLOVnU=
@@ -31,8 +31,6 @@ files:
     visible: false
     encrypted_text: RLxLLhJk7CpEGxQEmDnxpJBulv9NNRvfdtkFu0vnWdr41XA73E1eKN/YKaE6M7ywQnqLKDe+TPgEpeC2o8iqjme3KVQuyTieIPg6lgfGVIRAylTQSO6iuW3ymPQnHldQb9pZsyp5a1kmC6WBKV4VUA==
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Queries+and+incremental+updates+/+Count+Ones
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 06:31:58 UTC"
 record: -1

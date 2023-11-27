@@ -3,24 +3,24 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 53
-        length: 94
+      - offset: 54
+        length: 26
         placeholder_text: "return a.count{it in l..r}"
         initial_state:
           length: 26
           offset: 54
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: sGbq2VHlTpN9zDebgbiXXp2SARl+/9OXue8UwmdjotcTOvquzT7OYPRa0lNDQvaaZDSLt/wUhskBEVvpTXHRgQ==
-      - offset: 516
-        length: 0
+      - offset: 84
+        length: 28
         placeholder_text: // Write your functions here
         initial_state:
           length: 28
           offset: 84
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: Ey4fBsukUroB0YjKiAqKJHK+JMCF/gNVtp6CdnFA1kcQokSsLqsvD2ypLpT54QgF7j/bspz22fvVl4goD22ZTqCXUPImHR5RbyY3WXq6KO0qItQS00OWok07FlTOB4YeETMSH6tchrtBNdruFPvhDut0/EdEjMYGGZThuhG8NpIZs9B/ZkRT+vlF7axyxyolKjX+LIyV2Jif8P9Nkn0bk2kpjbdDYU4FzTYOg7jOEHSLtnuHwGSvuHrDYgmWexjQ/JIpwpPETB4c8u/rGkUu/KCHzjVDsrrYiPlfJal512yepsq3+lRfC1w47FiN4ROB7SVNJ4xsHHv1yn4JRxRmHh0xfrq6dWAz9O3/Ru3miP93Vjwe6UkYaiF5MY6uogl5KGDSEKEJY7IAYOVn0TX7pA==
     encrypted_text: srRK1QJ8JYuSSQIjRvGNdpwIJ0OAjd+pCNgwrufeFASsjd77CGrZSNb1w9PGf3ubLtd6wEeO3eSA6QntySnxYOcVlqCWGMI7j5wp3APN3D7/NztQEZJj1WgXe8NKCq2EHTryqMs5ye7bNP0bytPkXns1/feIwn5Bx1njb68kYyU=
@@ -41,9 +41,7 @@ files:
     visible: false
     encrypted_text: MI2OZl6BnqFwCRGTm2maX4oIRpPz19Yr/V/mpOwvcXK7uMybpBCLh1QGIcFAK4kCcD8Y0XyBTDD3GGm32hYdgfHEcqJhzVSp2NOFmmF6XY7lo0Eiyf+bUecXDMIZn9f/tkV7slxjpXiS8Xx6ICAw1TTzdsRjSzrr7MnSXVQTiYzrRYTaYD7OrEabc7vvlnHQ9k/z8D9GHwRc4tAMw+X3Y7b0bhQ5Pn2EdmOX1nFymm3e76ZTBPOIcVqGTz08lIjF4ipt2i3e5JqT2wjBJoCBmvPEBnyk4eTbc8dPMWk0KPEIEtz8xUr1AkGO/v1Xd2uUKGJUKrYsF/8t0pP1lq3pPIASFu8Xe94D8AG8MtDrtOaku+5uhLlV0tZNDTUbbwidTQ1gXF5C/AID2SAWxaEn8PUlibId6lT/m/sTjgf2LeabwzzAlWSaEurCbo+yyqtBJJ2XZ/akJvqUKSzUijNYyEk0X7IVRJRrcXCqYNtxbhDVZqmSAVJLFttvX8ConSBJFeMhtCfZxsl9z1t2I77h5SBSWSeHeZlSsrzo9Ps3hJs7nwdg/htIn1ylXKREyOfvHM6AIAuoEjHaKtqa6JilYtbXRg2qBfoXIhVSlgfmU8WU1sP1hwKt/DIqORfl3J6D/T5te29cUf75G+YpDWAyKTmsNDM+c4z/AHcJRpYK0kuAxrGbXMAVqlbJP4cAgmna5uRZkQ59S1mcj/ba65MCv4azcJD57nx+dXif787M1wGLE6cFUY+f9YS199kMvA5wOcaJOOebXlLrDkkCr82AY0FLeKURqPa9HR59pJhiyNcil4e0YZ5lD+Aw6O95FYyZTxlTLXWIaqzO7UepWa7dJH6h4tZjl4LdhUol9KUdbZBoFOSruyKFXJU8IG6YK5CyxamRtpm7ClJ0t8Mt91Y4SXEUlTnnjyCOopRpWRB0T/gwy7AKTMD+94W+9JDfFFNixoxhvbt1jjAL7hbab4Q3CBmkai4oS3MLAwbOhq4uGUsS1AyzERYm6K5O4CyA6JdA7kUx9IG8s/pdilIeZIpZtvTW49UW1a+wEBGRJrjT8NA=
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Divide+and+Conquer+/+Count+in+Range
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 23 Nov 2023 13:30:37 UTC"
 record: -1
 solution_hidden: false

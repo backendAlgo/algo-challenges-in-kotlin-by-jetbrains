@@ -3,14 +3,14 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 42
-        length: 3
+      - offset: 46
+        length: 23
         placeholder_text: // Write your code here
         initial_state:
           length: 23
           offset: 46
         initialized_from_dependency: false
-        selected: true
+        selected: false
         status: Solved
         encrypted_possible_answer: jR/ZT9jf79jpTwoNauLgTg==
     encrypted_text: 8CR+pvuSDe785wQmoXS3sd9hLqobSkv+5bvgWMnKCUH/wzZIsmelqqN3/vBEqETA2Xyj2oKfWboxXdJSyoO4OBZRNVj2PwKuVpVqwINsrW4=
@@ -31,8 +31,6 @@ files:
     visible: false
     encrypted_text: ITs8Nv8EH6QWJG5nufD7nG8aCRRNu9s0lIhzUcCHkspqtrXhkvgETqwgK3clQxWqxHPhg5TU04NONFDDQnQRlHpoHEynug+LLcHImSQvvv1+8PP2D3PpNNZp9HBmLnX/YZpiEZmaJlJ0o5jmzhu8TJo26jki48Y9YTJoAAgrp5WyEtj7AYjOEZHPy2L88rk+Nl6ND79YP0mSGKSDpZyzP6nkTnpuak43sQJ/q/cDGnzgigrvikwAlrCn2FrjDglMk4LhRjXvHYp/GDqXxlLBR4U47LjbEL5GRSrdcwYF13VVE8GYyKR4IK7kA9tTKtAkUxkPCAEhJVayYCVgcy9sI7wmuBePBVm4cXUSNgJGABcX5XJ6RAmxStDGNds8TBSW28iAiLCN3iBodhqGJ/0a/ozP3NRt96OiD9u66sojuNPXnDj28I35+m9FWlldceguYCpqFIpn0u6OlcazDEJg/kcxd42XDHSxJjSkkbCwXmSa1+QxGSNWRCveiekZX4XUXJZ26M2pM3ad17u5zMZk7wWJWr7epOO+rPHIYuHFKbqeqrTKb1sJSQ2ve3Fqx8R9LGWBY1f7asyeZs2SN+UbJx3XZ6QJThE6+zbYgyBg/d5ztN1thutwP0Eb7OrQ2ra6XxMow592FoGYAIaAybZWa0bO6lRq4q+BaIPfp2NqEIhGRFEujkVxPV+toP/XDwD69npv2yzQ98Z3cVEJpihTdQ==
     learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdbaN6HuDWjJXvP3vFSIyFROZ6nYg/viewform?usp=pp_url&entry.2103429047=Warmup+/+Sum+of+two+digits
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 15 Nov 2023 04:59:40 UTC"
 record: -1
