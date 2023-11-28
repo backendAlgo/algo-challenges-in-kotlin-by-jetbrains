@@ -7,9 +7,9 @@ fun main() {
 
 fun <T : Comparable<T>> getMedian(first: List<T>, second: List<T>): T {
     val mergeAndFinder = MergeAndFinder(first, second)
-    for (i in 0 until (first.size + second.size)) {
-        println(mergeAndFinder.getValue(i))
-    }
+//    for (i in 0 until (first.size + second.size)) {
+//        println(mergeAndFinder.getValue(i))
+//    }
     return mergeAndFinder.getValue(first.size - 1)
 
 }
