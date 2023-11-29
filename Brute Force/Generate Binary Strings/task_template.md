@@ -21,7 +21,6 @@ The list should be lexicographically ordered.
 
 ### Example
 
-
 <div class="samples">
 
 | Input | Returns                    |

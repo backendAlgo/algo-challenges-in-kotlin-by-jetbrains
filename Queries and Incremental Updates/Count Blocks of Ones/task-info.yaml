@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 49
-        length: 27
+        length: 23
         placeholder_text: '    TODO("not implemented")'
         initial_state:
           length: 27

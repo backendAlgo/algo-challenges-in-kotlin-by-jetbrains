@@ -6,7 +6,7 @@
     <img src="../../images/money_change_dp_logo.png">
 </div>
 
-Compute the minimum number of coins needed to change 
+Compute the minimum number of coins needed to change
 the given value into coins with denominations 1, 3, and 4.
 
 ### Input

@@ -7,11 +7,11 @@
 </div>
 
 Implement a class that supports the following three operations
-for a given binary string: 
-   1. get the number of 1's in the string,
-   2. get the number of blocks of 1's in the string,
-   3. flip a given bit of the string.
+for a given binary string:
 
+1. get the number of 1's in the string,
+2. get the number of blocks of 1's in the string,
+3. flip a given bit of the string.
 
 ```Kotlin
 class CountBlocksOfOnesWithUpdates {

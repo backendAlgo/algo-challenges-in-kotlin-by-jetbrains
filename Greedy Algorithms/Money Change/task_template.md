@@ -2,8 +2,8 @@
 
 # Money Change
 
-In this problem, you will implement a simple greedy algorithm used by 
-cashiers all over the world. We assume that the cashier has an unlimited 
+In this problem, you will implement a simple greedy algorithm used by
+cashiers all over the world. We assume that the cashier has an unlimited
 number of coins of each denomination.
 
 <div class="logo">

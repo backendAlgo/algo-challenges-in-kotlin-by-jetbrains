@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 78
-        length: 216
+      - offset: 77
+        length: 192
         placeholder_text: |2
               weights.sortDescending()
               var capacityLeft = backpackCapacity

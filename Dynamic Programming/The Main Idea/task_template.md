@@ -1,9 +1,9 @@
-In this chapter, you will implement various dynamic programming algorithms and 
-will see how they solve problems that evaded all our attempts to solve them using 
-greedy or divide-and-conquer strategies. There are countless applications of 
-dynamic programming in practice ranging from searching for similar Internet 
-pages to gene prediction in DNA sequences. You will learn how the same idea helps 
-to automatically make spelling corrections and to find the differences between 
+In this chapter, you will implement various dynamic programming algorithms and
+will see how they solve problems that evaded all our attempts to solve them using
+greedy or divide-and-conquer strategies. There are countless applications of
+dynamic programming in practice ranging from searching for similar Internet
+pages to gene prediction in DNA sequences. You will learn how the same idea helps
+to automatically make spelling corrections and to find the differences between
 two versions of the same text.
 
 ## Number of Paths
@@ -13,7 +13,7 @@ try to solve the following puzzle.
 
 **Interactive Puzzle "Number of Paths".**
 There are many ways of getting from $s$ to $t$ in the
-network below: for example, $s \to b \to e \to t$ and $s \to a \to c \to d \to t$. 
+network below: for example, $s \to b \to e \to t$ and $s \to a \to c \to d \to t$.
 
 <img src="../../images/network1.png">
 
@@ -34,9 +34,9 @@ to $c$ is $1+1=2$ ($s \to a \to c$ and $s \to b \to c$).
 
 <img src="../../images/network4.png">
 
-Similarly, to get to $d$, one first needs to get to either $a$ or $c$. 
-There is one path to get to $a$ and two paths to get to $c$. 
-Hence, the number of paths to get to $d$ is $1+2=3$ 
+Similarly, to get to $d$, one first needs to get to either $a$ or $c$.
+There is one path to get to $a$ and two paths to get to $c$.
+Hence, the number of paths to get to $d$ is $1+2=3$
 ($s\to a \to d$, $s\to a \to c \to d$, and $s\to b \to c \to d$).
 
 <img src="../../images/network5.png">
@@ -45,7 +45,7 @@ The number of paths ending in $e$ is equal to $1$, as $e$ can be reached from $b
 
 <img src="../../images/network6.png">
 
-Since there are two paths to $c$, three paths to $d$, and one 
+Since there are two paths to $c$, three paths to $d$, and one
 path to $e$, there are $2+3+1=6$ paths to $t$.
 
 <img src="../../images/network7.png">
@@ -57,7 +57,6 @@ Find the number of ways to get from $s$ to $t$ in the following three networks.
 
 <img src="../../images/network8.png">
 
-
 ## Dynamic Programming
 
 Let's review our solution of the Number of Paths puzzle
@@ -68,17 +67,20 @@ This is called a *base case*.
 For all other nodes, the corresponding value can be found using
 a *recurrence relation*: $paths(v)$ is equal to the sum of $paths(w)$
 over all predecessors $w$ of $v$,
-where a predecessor of $v$ is a node that has an edge connecting 
+where a predecessor of $v$ is a node that has an edge connecting
 it with $v$.
 
 Many dynamic programming algorithms follow the same pattern:
+
 * Instead of solving the original problem, the algorithm solves a bunch of subproblems of the same type.
-* The algorithm computes a solution to every subproblem through a recurrence relation involving solutions to smaller subproblems.
+* The algorithm computes a solution to every subproblem through a recurrence relation involving solutions to smaller
+  subproblems.
 * The algorithm stores solutions to subproblems to avoid recomputing them again.
 
 ## Shortest Path in Directed Acyclic Graph
+
 Now, consider a *weighted graph* where each edge $e$ has length denoted
-${length}(e)$. The length of a path in the graph is defined as the sum of 
+${length}(e)$. The length of a path in the graph is defined as the sum of
 its edge lengths.
 
 <img src="../../images/network9.png">
@@ -87,7 +89,7 @@ For example, the length
 of a path $s \to b \to e \to t$ is $5+7+4=16$. What is the minimum length
 of a path from $s$ to $t$?
 
-Since each path from $s$ to $t$ passes through either $c$, $d$, or $e$ before entering into  $t$,
+Since each path from $s$ to $t$ passes through either $c$, $d$, or $e$ before entering into $t$,
 
 $${length}(t)=\min \lbrace {length}(c)+6, {length}(d)+8, {length}(e)+4 \rbrace $$
 
@@ -102,7 +104,8 @@ The recurrence relations for $a$ and $b$ are the following:
 <img src="../../images/network12.png">
 
 Finally, the base case is ${length}(s)=0$. Using this base case,
-one can find the distances to all the nodes in the network, including the target node $t$, through the recurrence relations given above. All of them
+one can find the distances to all the nodes in the network, including the target node $t$, through the recurrence
+relations given above. All of them
 can be compactly written as follows:
 
 <img src="../../images/network13.png">
@@ -126,7 +129,7 @@ Similarly,
 
 <img src="../../images/network16.png">
 
-Hence, we arrive at $c$ from $b$. Thus, the path from $s$ to $t$ of 
+Hence, we arrive at $c$ from $b$. Thus, the path from $s$ to $t$ of
 length $12$
 is $s \to b \to c \to t$.
 

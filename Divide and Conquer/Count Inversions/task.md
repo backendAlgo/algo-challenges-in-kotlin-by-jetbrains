@@ -49,15 +49,15 @@
     <img src="../../images/inversions_logo.png">
 </div>
 
-Given a sequence $a_0, a_1, \dotsc a_{n - 1}$, 
+Given a sequence $a_0, a_1, \dotsc a_{n - 1}$,
 find for each $i$ the number of inversions $a_i$
 participates in, that is, the number of $0 \le j < i$
 such that $a_j > a_i$.
 
-The number of inversions in a sequence measures how close the 
-sequence is to being sorted. For example, a sequence sorted in 
-the non-descending order contains no inversions, while a 
-sequence sorted in the descending order contains $n(n-1)/2$ inversions 
+The number of inversions in a sequence measures how close the
+sequence is to being sorted. For example, a sequence sorted in
+the non-descending order contains no inversions, while a
+sequence sorted in the descending order contains $n(n-1)/2$ inversions
 (every two elements form an inversion).
 
 ### Input
@@ -125,6 +125,7 @@ for counting the number of elements of $List$ that are larger than $x$
 in time $\left\lceil \log_2|\mathit{List}| \right\rceil$ comparisons and $O(\log|\mathit{List}|)$ time.
 
 This way, we arrive at the following divide-and-conquer algorithm.
+
 * Make two recursive calls to count inversions in $\mathit{LeftHalf}$ and $\mathit{RightHalf}$.
 * Sort $\mathit{LeftHalf}$.
 * For every element $x$ in $\mathit{RightHalf}$, find the value of $\mathit{LeftHalf}_x$
@@ -164,12 +165,12 @@ inversions that the moved element forms?
 
 Consider two cases.
 
- * $l \le r$. In this case, $l$ is not greater than every element of
-$\mathit{RightHalf}$ and hence forms no split inversions.
- * $l > r$. In this case, $r$ is smaller than every element
-of $\mathit{LeftHalf}$ and hence forms a split inversion
-with every such element. We then increase the number of inversions of $x$
-by the length of $\mathit{LeftHalf}$.
+* $l \le r$. In this case, $l$ is not greater than every element of
+  $\mathit{RightHalf}$ and hence forms no split inversions.
+* $l > r$. In this case, $r$ is smaller than every element
+  of $\mathit{LeftHalf}$ and hence forms a split inversion
+  with every such element. We then increase the number of inversions of $x$
+  by the length of $\mathit{LeftHalf}$.
 
 The running time $T(n)$ of the resulting algorithm satisfies
 the recurrence $T(n)=2T(n/2)+O(n)$ and hence $T(n)=O(n\log n)$.

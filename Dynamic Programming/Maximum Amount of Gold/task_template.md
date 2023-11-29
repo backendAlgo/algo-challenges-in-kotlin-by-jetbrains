@@ -21,9 +21,9 @@ An `Int` — the maximum total weight of gold bars that fit into a backpack of c
 
 <div class="samples">
 
-| Input             | Return value |
-|-------------------|--------------|
-| `10` `[1, 4, 8]`  | `9`          |
+| Input            | Return value |
+|------------------|--------------|
+| `10` `[1, 4, 8]` | `9`          |
 
 </div>
 

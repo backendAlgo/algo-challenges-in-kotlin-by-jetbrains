@@ -11,7 +11,7 @@ of single-symbol insertions, deletions, and substitutions to transform one
 string into the other one.
 
 The corresponding similarity measure is called the *edit distance*
-between two strings. It has 
+between two strings. It has
 applications in computational
 biology, natural language processing, spell checking, and many other areas.
 For example, biologists often compute edit distances when they search for
@@ -38,6 +38,7 @@ space ("$-$") symbols in such a way that no two space symbols appear
 in the same column.
 
 We classify the columns of an alignment as follows:
+
 * a column with a symbol and a space is a *deletion*;
 * a column with a space and a symbol is an *insertion*;
 * a column with two equal symbols is a *match*;

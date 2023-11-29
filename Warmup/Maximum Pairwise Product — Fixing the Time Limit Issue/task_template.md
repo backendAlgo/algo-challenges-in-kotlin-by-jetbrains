@@ -1,9 +1,9 @@
 Finally, assume that in the Maximum Pairwise Product problem,
 the $a_i$'s integers can be as large as $10^6$,
-and $n$, the length of the input sequence, can also 
+and $n$, the length of the input sequence, can also
 be as large as $10^6$.
 Again, our previous
-solution does not work in this case. 
+solution does not work in this case.
 You may want to check that
 by pressing the "Check" button.
 

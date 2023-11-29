@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 319
+        length: 281
         placeholder_text: |
           fun findMinimumOperations(n: Int): List<Int> {
               var i = n

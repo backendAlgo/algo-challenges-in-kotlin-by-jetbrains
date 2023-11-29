@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 45
-        length: 38
+      - offset: 43
+        length: 36
         placeholder_text: "    return v.sumOf { it.toLong() } + 1"
         initial_state:
           length: 38

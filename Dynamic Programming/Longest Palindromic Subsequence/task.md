@@ -49,7 +49,7 @@
     <img src="../../images/palindromic_logo.png">
 </div>
 
-Given a string, find the longest palindromic subsequence of this string, 
+Given a string, find the longest palindromic subsequence of this string,
 i.e., a subsequence that reads the same backward and forward.
 
 This subsequence does not have to be contiguous.
@@ -57,7 +57,7 @@ This subsequence does not have to be contiguous.
 ### Input
 
 A string consisting of lowercase English letters.
-The length of the string doesn't exceed $5\ 000$. 
+The length of the string doesn't exceed $5\ 000$.
 
 ### Output
 
@@ -88,7 +88,7 @@ down a recurrence relation based on this observation?
 
 ### Solution
 
-Let us focus on $s[0]$ and $s[n-1]$ —— the first and the last 
+Let us focus on $s[0]$ and $s[n-1]$ —— the first and the last
 symbols of the string $s[0..n)$. If at least one of them does
 not appear in the longest palindromic subsequence, then it
 suffices to search for the longest palindromic subsequence in the
@@ -106,12 +106,12 @@ in the substring $s[i..j)$. Then,
 ![](../../images/palindromic_1.png)
 
 The base cases are: $\operatorname{LPS}(i,i)=0$ and $\operatorname{LPS}(i,i+1)=1$.
-It remains to compute the values $\operatorname{LPS}(i,j)$ for all 
+It remains to compute the values $\operatorname{LPS}(i,j)$ for all
 $0 \le i \le j \le n$ (using memoization) and then return the value of $\operatorname{LPS}(0,n)$.
 
 ![](../../images/palindromic_2.png)
 
-The running time of this algorithm is proportional to the total number 
+The running time of this algorithm is proportional to the total number
 of subproblems, that is, $O(n^2)$.
 
 One can also solve the problem iteratively (rather than recursively) as follows.

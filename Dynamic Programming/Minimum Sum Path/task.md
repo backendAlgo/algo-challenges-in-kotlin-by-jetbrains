@@ -55,7 +55,7 @@ moves from $i$ to $i + 2$ twice in a row.
 The game ends on reaching the point $n - 1$.
 Each point has a number associated with it: $a_0, a_1, \ldots, a_{n - 1}$.
 
-Implement a function for computing the minimum total sum of the numbers 
+Implement a function for computing the minimum total sum of the numbers
 in the visited points.
 
 ```Kotlin
@@ -88,7 +88,7 @@ Return a `Long` representing the minimum total sum.
 The character can reach point $i$ either from point $i-1$ or
 from point $i-2$ (if he reached it from point $i-3$). This
 motivates introducing the following functions. For $0 \le i <n$
-and $1 \le d \le 2$, 
+and $1 \le d \le 2$,
 $\operatorname{path}(i, d)$
 is equal to the minimum sum of a path that ends at point $i$,
 with the last move being made from point $i-d$. Then,

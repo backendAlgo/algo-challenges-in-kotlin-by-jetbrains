@@ -1,4 +1,3 @@
-
 ### Solution
 
 An index $0 \le i < n$

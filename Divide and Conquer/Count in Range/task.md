@@ -43,12 +43,12 @@
 }
 </style>
 
-# Count number of elements in given range 
+# Count number of elements in given range
 
-Given a *sorted* array $a$, and numbers $L$ and $R$, 
+Given a *sorted* array $a$, and numbers $L$ and $R$,
 count number of elements that satisfy $L \le a_i \le R$.
 
-In [Task.kt](course://Divide and Conquer/Count in Range/src/Task.kt), 
+In [Task.kt](course://Divide and Conquer/Count in Range/src/Task.kt),
 you already have a slow solution.
 Make it work faster to pass the tests.
 
@@ -76,12 +76,12 @@ indices $l$ and $r$, we can calculate the number of elements in the segment
 as $r-l$.
 
 Let's find the index $l$: $a[l]$ is the leftmost element that satisfy the
-condition $a[l] \ge L$. We can use the function `lowerBound` from the 
+condition $a[l] \ge L$. We can use the function `lowerBound` from the
 previous task to find it in $O(\log n)$ time: `l = lowerBound(a, L)`.
 
 Now let's find the index $r$: $a[r-1]$ is the rightmost element that satisfy the
 condition $a[r-1] \le R$, that means that $a[r-1]$ is the leftmost element
-that is $a[r] > R$. We can use the same function `lowerBound` to find it 
+that is $a[r] > R$. We can use the same function `lowerBound` to find it
 in $O(\log n)$ time. The easiest way is to see that since the element are integers,
 $a[r] > R$ is the same as $a[r] \ge R+1$, so we can make `r = lowerBound(a, R + 1)`.
 

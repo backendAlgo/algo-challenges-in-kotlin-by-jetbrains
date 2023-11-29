@@ -8,8 +8,8 @@
 
 ### Input
 
-You are given two sorted `List<T>`'s 
-$a_0 \le a_1 \le \dotsb a_{n-1}$ 
+You are given two sorted `List<T>`'s
+$a_0 \le a_1 \le \dotsb a_{n-1}$
 and
 $b_0 \le b_1 \le \dotsb b_{n-1}$, where `T`
 implements `Comparable<T>`

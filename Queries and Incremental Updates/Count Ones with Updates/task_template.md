@@ -1,6 +1,7 @@
 <%css "/util/common.css" %>
 
 # Count Ones with Updates
+
 <div class="logo">
     <img src="../../images/count_ones_with_updates_logo.png">
 </div>

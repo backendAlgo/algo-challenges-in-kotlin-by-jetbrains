@@ -12,7 +12,7 @@ moves from $i$ to $i + 2$ twice in a row.
 The game ends on reaching the point $n - 1$.
 Each point has a number associated with it: $a_0, a_1, \ldots, a_{n - 1}$.
 
-Implement a function for computing the minimum total sum of the numbers 
+Implement a function for computing the minimum total sum of the numbers
 in the visited points.
 
 ```Kotlin

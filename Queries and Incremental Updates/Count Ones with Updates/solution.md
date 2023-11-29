@@ -1,4 +1,3 @@
-
 ### Solution
 
 Given a string, count the number of ones in it and store it

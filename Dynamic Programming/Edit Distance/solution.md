@@ -1,4 +1,3 @@
-
 ### Solution
 
 An *alignment* of two strings is
@@ -8,6 +7,7 @@ space ("$-$") symbols in such a way that no two space symbols appear
 in the same column.
 
 We classify the columns of an alignment as follows:
+
 * a column with a symbol and a space is a *deletion*;
 * a column with a space and a symbol is an *insertion*;
 * a column with two equal symbols is a *match*;
@@ -46,18 +46,19 @@ $$\operatorname{EditDistance}(0,j)=j \quad \text{and} \quad \operatorname{EditDi
 This can be stated more compactly as follows: if $i=0$ or $j=0$, then
 $$\operatorname{EditDistance}(i,j)=\max\lbrace i,j \rbrace.$$
 
-The pseudocode below converts this recurrence relation into a recursive algorithm and uses memoization to avoid computing the same thing again.
+The pseudocode below converts this recurrence relation into a recursive algorithm and uses memoization to avoid
+computing the same thing again.
 
 ![](../../images/edit_distance_4.png)
 
 The running time of this algorithm is $O(nm)$, as there are at most $nm$
 recursive calls that are not just table lookups.
 
-
-
 The recursive algorithm computes $\operatorname{EditDistance}(i,j)$ for all
-$0 \le i \le n$ and $0 \le j \le m$. One can turn the recursive algorithm into an iterative one that stores the solutions to all
-subproblems in a two-dimensional table. We fill in the table by traversing it row by row. This ensures that by the time we compute
+$0 \le i \le n$ and $0 \le j \le m$. One can turn the recursive algorithm into an iterative one that stores the
+solutions to all
+subproblems in a two-dimensional table. We fill in the table by traversing it row by row. This ensures that by the time
+we compute
 the value of the $(i,j)$ cell, the values of the cells $(i,j-1)$, $(i-1,j)$
 and $(i-1,j-1)$ are already computed.
 

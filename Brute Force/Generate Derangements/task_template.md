@@ -8,7 +8,7 @@
 
 Given an integer $n$, generate all permutations
 (of the set $\lbrace 0, 1, \dotsc, n-1\rbrace$)
-without fixed points, that is, all permutations 
+without fixed points, that is, all permutations
 $(p_0, \dotsc, p_{n-1})$ such that $p_i \neq i$
 for all $0 \le i < n$.
 
@@ -22,7 +22,6 @@ Return a `List<Derangement>` that contains the required permutations.
 The list should be lexicographically ordered.
 
 ### Example
-
 
 <div class="samples">
 

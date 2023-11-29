@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 54
-        length: 26
+        length: 24
         placeholder_text: "return a.count{it in l..r}"
         initial_state:
           length: 26
@@ -13,8 +13,8 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: sGbq2VHlTpN9zDebgbiXXp2SARl+/9OXue8UwmdjotcTOvquzT7OYPRa0lNDQvaaZDSLt/wUhskBEVvpTXHRgQ==
-      - offset: 84
-        length: 28
+      - offset: 82
+        length: 26
         placeholder_text: // Write your functions here
         initial_state:
           length: 28

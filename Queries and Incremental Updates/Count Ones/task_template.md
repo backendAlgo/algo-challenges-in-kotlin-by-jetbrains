@@ -1,6 +1,7 @@
 <%css "/util/common.css" %>
 
 # Count Ones
+
 <div class="logo">
     <img src="../../images/count_ones_logo.png">
 </div>
@@ -11,7 +12,6 @@ Implement a function that allows one to get the number of
 ```Kotlin
 fun countOnes(seq: CharSequence): Int
 ```
-
 
 ### Examples
 

@@ -6,7 +6,7 @@
     <img src="../../images/palindromic_logo.png">
 </div>
 
-Given a string, find the longest palindromic subsequence of this string, 
+Given a string, find the longest palindromic subsequence of this string,
 i.e., a subsequence that reads the same backward and forward.
 
 This subsequence does not have to be contiguous.
@@ -14,7 +14,7 @@ This subsequence does not have to be contiguous.
 ### Input
 
 A string consisting of lowercase English letters.
-The length of the string doesn't exceed $5\ 000$. 
+The length of the string doesn't exceed $5\ 000$.
 
 ### Output
 

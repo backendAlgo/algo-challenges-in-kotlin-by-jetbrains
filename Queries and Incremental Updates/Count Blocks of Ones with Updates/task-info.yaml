@@ -12,7 +12,7 @@ files:
     visible: true
     placeholders:
       - offset: 57
-        length: 42
+        length: 40
         placeholder_text: |
           // write required fields and methods here
         initial_state:
@@ -22,8 +22,8 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: WeBMgWPm1jYcxFFH2Ww0LSZ1t360GQPUkkPhFERitKQ0GyYBMugdTuAGX2mWRFUvbIRTMS4Tvunpm4rgUMToBExm8QnpQouVFL7HNfLUv0zR6d77cfi124+KVMt45ti0BbblKLD2PO86adexiq+BPhBUxSvl8L/McyVD3y5Yt1t8vuf05R//adkWT5zEPcOfxxJx+NLKOHo1FF7UOj0L1TM+YY4ft+LaZn3pKiklrDvOewqf0m3lNF+MqgpxQwB9AnfsJWe2azjAtMiGMbmP9e7/ibzZovEkyzL86y/z1ToFpkBHLX4oFIIHNsTiKTe47eQetFpHYM3dmpBhoVSDdu6rWKzBjrOqNI7wDETM27Th7LGAXIvy7oNexuVoSjbg5Cn/TvEkKVTayoa2QnfiKQSWyySHF9J79P7JGCEI1ohWnG+el0fJgNB8xAw3otneqpKtMgxewS+vqrHnr2z33POX7XbYAr1cMMIQwhDYmsAihDUw9ZwuYzHYTKVr7vS+0XRTSDxvclazZZrhwhjDAg==
-      - offset: 127
-        length: 31
+      - offset: 123
+        length: 29
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31
@@ -32,8 +32,8 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: rv641lv9eyb8p9/+bCsFHTF3BHKQNPd/i+DFoEC2uEE=
-      - offset: 201
-        length: 31
+      - offset: 191
+        length: 26
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31
@@ -42,8 +42,8 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: LM1obfNkKP+K/XgcJbmviwG2eiaQbK7uk+nFQ9vsIQU=
-      - offset: 267
-        length: 31
+      - offset: 245
+        length: 25
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31

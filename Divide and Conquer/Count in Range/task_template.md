@@ -1,11 +1,11 @@
 <%css "/util/common.css" %>
 
-# Count number of elements in given range 
+# Count number of elements in given range
 
-Given a *sorted* array $a$, and numbers $L$ and $R$, 
+Given a *sorted* array $a$, and numbers $L$ and $R$,
 count number of elements that satisfy $L \le a_i \le R$.
 
-In [Task.kt](course://Divide and Conquer/Count in Range/src/Task.kt), 
+In [Task.kt](course://Divide and Conquer/Count in Range/src/Task.kt),
 you already have a slow solution.
 Make it work faster to pass the tests.
 

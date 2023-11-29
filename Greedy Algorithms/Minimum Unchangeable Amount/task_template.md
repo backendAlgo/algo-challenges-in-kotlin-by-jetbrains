@@ -1,6 +1,7 @@
 <%css "/util/common.css" %>
 
 # Minimum Unchangeable Amount
+
 <div class="logo">
     <img src="../../images/unchangeable_amount_logo.png">
 </div>

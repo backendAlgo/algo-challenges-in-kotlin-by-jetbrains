@@ -4,41 +4,41 @@ import java.util.*
 
 class Tests {
 
-    companion object {
-        private fun createBitSet(vararg args: Int): BitSet {
-            val result = BitSet()
-            args.forEach { result.set(it) }
-            return result
-        }
+  companion object {
+    private fun createBitSet(vararg args: Int): BitSet {
+      val result = BitSet()
+      args.forEach { result.set(it) }
+      return result
     }
+  }
 
-    @Test
-    fun sample1() {
-        val actual = generateSubsets(2, 1)
-        val expected = listOf(createBitSet(0), createBitSet(1))
-        assertEquals(actual, expected)
-    }
+  @Test
+  fun sample1() {
+    val actual = generateSubsets(2, 1)
+    val expected = listOf(createBitSet(0), createBitSet(1))
+    assertEquals(actual, expected)
+  }
 
-    @Test
-    fun sample2() {
-        val actual = generateSubsets(3, 2)
-        val expected = listOf(
-            createBitSet(0, 1), createBitSet(0, 2), createBitSet(1, 2)
-        )
-        assertEquals(actual, expected)
-    }
+  @Test
+  fun sample2() {
+    val actual = generateSubsets(3, 2)
+    val expected = listOf(
+      createBitSet(0, 1), createBitSet(0, 2), createBitSet(1, 2)
+    )
+    assertEquals(actual, expected)
+  }
 
-    @Test
-    fun sample3() {
-        val actual = generateSubsets(4, 2)
-        val expected = listOf(
-            createBitSet(0, 1),
-            createBitSet(0, 2),
-            createBitSet(0, 3),
-            createBitSet(1, 2),
-            createBitSet(1, 3),
-            createBitSet(2, 3),
-        )
-        assertEquals(expected, actual)
-    }
+  @Test
+  fun sample3() {
+    val actual = generateSubsets(4, 2)
+    val expected = listOf(
+      createBitSet(0, 1),
+      createBitSet(0, 2),
+      createBitSet(0, 3),
+      createBitSet(1, 2),
+      createBitSet(1, 3),
+      createBitSet(2, 3),
+    )
+    assertEquals(expected, actual)
+  }
 }

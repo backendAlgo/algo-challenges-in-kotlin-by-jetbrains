@@ -1,6 +1,7 @@
 <%css "/util/common.css" %>
 
 # Range Sum Queries
+
 <div class="logo">
     <img src="../../images/range_sum_queries.png">
 </div>
@@ -8,7 +9,7 @@
 Implement a class that allows one to compute
 the sum of any subrange of a given integer sequence.
 
-For an integer sequence $a_0, \dotsc, a_{n-1}$ and indices 
+For an integer sequence $a_0, \dotsc, a_{n-1}$ and indices
 $0 \le l \le r \le n$, by $\operatorname{query}(l,r)$
 denote the sum $\sum_{l \le i <r}a_i=a_l+a_{l+1}+\dotsb+a_{r-1}$.
 
@@ -18,9 +19,9 @@ class RangeSum {
 }
 ```
 
-As a range may be as long as $n$, answering a single range sum query 
+As a range may be as long as $n$, answering a single range sum query
 may require about $n$ additions. Hence, answering $q$ range sum queries
-naively may result in $nq$ arithmetic operations. If, say, $n=q=10^6$, 
+naively may result in $nq$ arithmetic operations. If, say, $n=q=10^6$,
 this would not fit into one second for sure.
 Your goal is to design a faster algorithm.
 
@@ -31,7 +32,7 @@ An `IntArray` of size not exceeding $10^7$.
 ### Output
 
 - the `createRSQInstance` function should return
-an instance of class implementing the [RangeSumQueries](psi_element://RangeSumQueries) interface.
+  an instance of class implementing the [RangeSumQueries](psi_element://RangeSumQueries) interface.
 - `getSum(l, r)` should return the value of $\operatorname{query}(l, r)$
 
 ### Example

@@ -6,15 +6,15 @@
     <img src="../../images/inversions_logo.png">
 </div>
 
-Given a sequence $a_0, a_1, \dotsc a_{n - 1}$, 
+Given a sequence $a_0, a_1, \dotsc a_{n - 1}$,
 find for each $i$ the number of inversions $a_i$
 participates in, that is, the number of $0 \le j < i$
 such that $a_j > a_i$.
 
-The number of inversions in a sequence measures how close the 
-sequence is to being sorted. For example, a sequence sorted in 
-the non-descending order contains no inversions, while a 
-sequence sorted in the descending order contains $n(n-1)/2$ inversions 
+The number of inversions in a sequence measures how close the
+sequence is to being sorted. For example, a sequence sorted in
+the non-descending order contains no inversions, while a
+sequence sorted in the descending order contains $n(n-1)/2$ inversions
 (every two elements form an inversion).
 
 ### Input

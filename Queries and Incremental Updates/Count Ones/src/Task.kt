@@ -1,4 +1,3 @@
-
 fun countOnes(seq: CharSequence): Int {
-    return seq.count { it == '1' }
+  return seq.count { it == '1' }
 }

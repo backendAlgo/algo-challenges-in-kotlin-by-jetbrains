@@ -44,6 +44,7 @@
 </style>
 
 # Minimum Unchangeable Amount
+
 <div class="logo">
     <img src="../../images/unchangeable_amount_logo.png">
 </div>
@@ -95,7 +96,7 @@ The example reveals the following property: at least in the beginning, the set $
 is equal to a continuous range of integers. At some point, a hole appears in this range, and our
 goal is to find this first hole.
 
-Assume that for some $1 \le k \le n$, 
+Assume that for some $1 \le k \le n$,
 $\operatorname{changeable}(c_1, \dotsc, c_k)=[m]$
 (here, $[m]=\lbrace 1, \dotsc, m \rbrace$ is the set of the first $m$ positive integers).
 Now, how does adding $c_{k+1}$ change this set? Clearly, if $c_{k+1}>m+1$, then $m+1$ is the smallest

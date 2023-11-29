@@ -3,19 +3,19 @@
  * returns `a.size` if all `a[i] < x`
  */
 fun lowerBound(a: IntArray, x: Int): Int {
-    var lower = -1
-    var upper = a.size
-    while (lower + 1 < upper) {
-        val middle = (lower + upper) / 2
-        if (a[middle] < x) {
-            lower = middle
-        } else {
-            upper = middle
-        }
+  var lower = -1
+  var upper = a.size
+  while (lower + 1 < upper) {
+    val middle = (lower + upper) / 2
+    if (a[middle] < x) {
+      lower = middle
+    } else {
+      upper = middle
     }
-    return upper
+  }
+  return upper
 }
 
 fun main() {
-    println(lowerBound(intArrayOf(2, 4, 7, 11, 12), 0))
+  println(lowerBound(intArrayOf(2, 4, 7, 11, 12), 0))
 }

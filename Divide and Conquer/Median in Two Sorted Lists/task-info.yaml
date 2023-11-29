@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 376
-        length: 51
+      - offset: 202
+        length: 38
         placeholder_text: |2
               assert(first.size == second.size)
               return (first.asSequence() + second.asSequence())
@@ -40,5 +40,5 @@ feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfxqHNk7ZtD9Br3NqgSlkdba
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 28 Nov 2023 17:28:04 UTC"
+  time: "Wed, 29 Nov 2023 16:12:42 UTC"
 record: -1

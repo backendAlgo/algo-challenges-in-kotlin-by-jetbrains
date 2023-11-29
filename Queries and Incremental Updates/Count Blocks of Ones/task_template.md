@@ -24,10 +24,10 @@ Return an `Int` representing the number of blocks in the binary string.
 
 <div class="samples">
 
-| Input         | Returns |
-|---------------|---------|
-| `"001001"`    | 2       |
-| `"11100101"`  | 3       |
+| Input        | Returns |
+|--------------|---------|
+| `"001001"`   | 2       |
+| `"11100101"` | 3       |
 
 </div>
 

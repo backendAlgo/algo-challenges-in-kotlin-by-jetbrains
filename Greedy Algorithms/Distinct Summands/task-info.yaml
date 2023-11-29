@@ -3,8 +3,8 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 45
-        length: 27
+      - offset: 44
+        length: 25
         placeholder_text: '    TODO("not implemented")'
         initial_state:
           length: 27

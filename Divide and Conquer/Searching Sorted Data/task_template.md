@@ -2,12 +2,12 @@
 
 The method that we used for guessing a number is known
 as the *binary search*.
-Perhaps the most important application of binary search 
-is *searching sorted data*. Searching is a fundamental problem: 
-given a sequence and an element $x$, we would like to check whether 
-$x$ is present in this sequence. For example, $3$ is present in the 
-sequence $(7, 2, 5, 6, 11, 3, 2, 9)$ and $4$ is not present in this 
-sequence. Given the importance of the search problem, it is not 
+Perhaps the most important application of binary search
+is *searching sorted data*. Searching is a fundamental problem:
+given a sequence and an element $x$, we would like to check whether
+$x$ is present in this sequence. For example, $3$ is present in the
+sequence $(7, 2, 5, 6, 11, 3, 2, 9)$ and $4$ is not present in this
+sequence. Given the importance of the search problem, it is not
 surprising that Kotlin has built-in methods for solving it.
 
 For instance, there is a method called `find`. Here's the example of using it.
@@ -21,6 +21,7 @@ println(a.find { it % 3 == 0 && it % 5 == 0 })
 ```
 
 The code above prints the following.
+
 ```
 true
 false
@@ -32,7 +33,7 @@ What is going on under the hood when one calls this
 `find` method? As you would expect, Kotlin
 simply performs a *linear scan*.
 This linear scan makes up to $n$ comparisons on a sequence
-of length $n$. If the sequence does not contain $x$, we *have to* scan all the elements: 
+of length $n$. If the sequence does not contain $x$, we *have to* scan all the elements:
 if we skip an element, we
 can't be sure that it is not equal to $x$.
 
@@ -49,18 +50,17 @@ a billion comparisons, but binary search makes at most $\log_210^9<30$ compariso
 The idea is again to try to half the search space. To do this,
 we compare
 $x$ with $a_{n/2}$. If $x=a_{n/2}$, then we are done. If $x<a_{n/2}$,
-then $x$ can only appear in the first half of the array, implying 
+then $x$ can only appear in the first half of the array, implying
 that the right half can be discarded.
 
 <img src="../../images/searching_sorted_data2.png">
 
-Similarly, if $x>a_{n/2}$, we discard the left half of the sequence 
+Similarly, if $x>a_{n/2}$, we discard the left half of the sequence
 as all its elements are certainly smaller than $x$:
 
 <img src="../../images/searching_sorted_data3.png">
 
 This leads us to the implementation shown on the left.
-
 
 Source:
 [Ace Your Next Coding Interview by Learning Algorithms](https://bit.ly/acecogniterra)

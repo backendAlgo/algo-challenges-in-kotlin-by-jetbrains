@@ -26,6 +26,7 @@ The number of segments doesn't exceed $300\,000$.
 All the coordinates don't exceed $10^9$ by their absolute value.
 
 ### Output
+
 An `IntArray` $d$ representing the number of segments containing each point; more formally, $d_i$ should contain
 the number of segments $[l_j, r_j]$ that contain point $x_i$.
 
@@ -37,7 +38,6 @@ the number of segments $[l_j, r_j]$ that contain point $x_i$.
 | `[1, 6, 11]` `[[0, 5], [7, 10]]`      | `[1, 0, 0]`  |
 | `[-100, 100, 0]` `[[-10, 10]]`        | `[0, 0, 1]`  |
 | `[1, 6]` `[[0, 5], [-3, 2], [7, 10]]` | `[2, 0]`     |
-
 
 </div>
 

@@ -12,7 +12,7 @@ files:
     visible: true
     placeholders:
       - offset: 50
-        length: 43
+        length: 41
         placeholder_text: |
           // create required fields and methods here
         initial_state:
@@ -22,7 +22,7 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: 1pSpQcw2lGoY9xRGWw+15c6q84+mgLJKAWcVEbYDGy7GH7A/EIUOy/rCkxBAmjObsz186ljDaPLz+VXrcK17nzJOI3I6gqa2C5NlHgy4QODexJ08VaipkfwaSiOBTMO01rSWWCUh8MeBosJwYh0bZg==
-      - offset: 122
+      - offset: 118
         length: 31
         placeholder_text: '        TODO("not implemented")'
         initial_state:
@@ -32,8 +32,8 @@ files:
         selected: false
         status: Solved
         encrypted_possible_answer: rv641lv9eyb8p9/+bCsFHTF3BHKQNPd/i+DFoEC2uEE=
-      - offset: 188
-        length: 31
+      - offset: 182
+        length: 29
         placeholder_text: '        TODO("not implemented")'
         initial_state:
           length: 31

@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-from os import system, listdir
 import sys
-
+from os import system, listdir
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
@@ -13,7 +12,8 @@ if __name__ == '__main__':
     argument = sys.argv[1]
     file_names = listdir('.') if argument == 'all' else [argument, ]
 
-    exclude_tex_files = ['cover.tex', 'main.tex', 'main_dark.tex', 'tmp.tex', 'header.tex', 'profile.tex', 'sandbox.tex']
+    exclude_tex_files = ['cover.tex', 'main.tex', 'main_dark.tex', 'tmp.tex', 'header.tex', 'profile.tex',
+                         'sandbox.tex']
 
     file_names = list(filter(lambda f: f not in exclude_tex_files and f.endswith('.tex'), file_names))
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
         # dark picture
         system('pdflatex main_dark > /dev/null 2>&1')
         system(f'convert -density 700 -colorspace RGB main_dark.pdf {file_name[:-4]}_dark.png')
-        
+
         print('OK')
 
     system('rm *.log *.aux main.pdf')
