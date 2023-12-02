@@ -1,4 +1,4 @@
-fun <T : Comparable<T>> count(a: List<T>): IntArray {
+fun <T : Comparable<T>> findInversions(a: List<T>): IntArray {
   val countInversion = InversionCounterAfter1Day(a)
   return countInversion.count()
 }
@@ -87,7 +87,7 @@ private class InversionCounterAfter1Day<T : Comparable<T>>(a: List<T>) {
         firstIndex++
       } else {
         mergeArray[mergedArrayIndex] = listToIndexValue[secondIndex]
-        result[listToIndexValue[secondIndex].first]++
+        result[listToIndexValue[secondIndex].first] += (mid - firstIndex + 1)
         secondIndex++
       }
       mergedArrayIndex++
@@ -99,7 +99,7 @@ private class InversionCounterAfter1Day<T : Comparable<T>>(a: List<T>) {
     }
     while (secondIndex <= high) {
       mergeArray[mergedArrayIndex] = listToIndexValue[secondIndex]
-      result[listToIndexValue[secondIndex].first]++
+      result[listToIndexValue[secondIndex].first] += (mid - firstIndex + 1)
       secondIndex++
       mergedArrayIndex++
     }
@@ -113,7 +113,7 @@ private class InversionCounterAfter1Day<T : Comparable<T>>(a: List<T>) {
 
 fun main() {
   val list = listOf(3, 1, 3, 4, 2)
-  val actual = count(list)
+  val actual = findInversions(list)
   println(intArrayOf(0, 1, 0, 0, 3).contentToString())
 }
 

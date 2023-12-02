@@ -81,7 +81,6 @@ How would you list all partitions of $n=5$ by hand?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 All partitions of $n=5$ can be split into two sets: those containing 1 as

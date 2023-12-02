@@ -71,7 +71,6 @@ An `Int` — the maximum total weight of gold bars that fit into a backpack of c
 </div>
 
 <div class="hint">
-
 ## Solution
 
 Instead of solving the original problem, we will check

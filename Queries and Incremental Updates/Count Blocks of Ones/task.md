@@ -80,7 +80,6 @@ index of a block of ones in a binary string $s[0\dotsc n)$?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 An index $0 \le i < n$

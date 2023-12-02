@@ -73,7 +73,6 @@ The list should be lexicographically ordered.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Let's take a look at the list of all binary strings of length 3 sorted in the

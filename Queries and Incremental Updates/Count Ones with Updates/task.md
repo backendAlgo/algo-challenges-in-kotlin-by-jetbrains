@@ -84,7 +84,6 @@ each time <code>countOnes</code> is called?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Given a string, count the number of ones in it and store it

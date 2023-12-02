@@ -68,7 +68,6 @@ borders of this segment using binary search, we can find its length.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 The elements we are looking for form a segment $a[l..r-1]$. If we find the

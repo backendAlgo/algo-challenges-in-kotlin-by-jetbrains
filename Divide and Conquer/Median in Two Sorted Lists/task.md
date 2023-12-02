@@ -85,7 +85,6 @@ some of $a_i$'s and $b_i$'s can be discarded in this case?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Intuitively, comparing the largest elements of two prefixes of total length $n+1$
@@ -124,7 +123,7 @@ lists of length $m+1$.
 To make sure that the problem size reduces significantly in both cases, one takes $m=\lfloor \frac{n-1}{2} \rfloor$.
 This way, one halves the problem size at every iteration. Hence, the number
 of recursive calls is $O(\log n)$. The base case of recursion is $n=1$: one then returns the minimum of the two
-elements.
+elements. 
 
 
 </div>

@@ -73,7 +73,6 @@ Use binary search.
 
 
 <div class="hint">
-
 ### Solution
 
 Consider a 0/1 array where the first element is 0

@@ -79,7 +79,6 @@ The list should be lexicographically ordered.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Recall that the resulting list needs to be sorted. This suggests

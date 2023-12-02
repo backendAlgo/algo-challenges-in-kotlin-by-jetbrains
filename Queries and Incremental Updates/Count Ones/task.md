@@ -72,7 +72,6 @@ A linear scan of the string is sufficient.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Scan the string and count the number of ones.

@@ -114,7 +114,6 @@ Can you compute all prefix sums faster?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Start by computing all prefix sums, i.e.,
@@ -135,5 +134,5 @@ Overall, the resulting algorithm
 makes $n+q$ arithmetic operations:
 compute (and store) all prefix sum queries,
 then answer each of $q$ range sum queries with a single arithmetic
-operation.
+operation.  
 </div>

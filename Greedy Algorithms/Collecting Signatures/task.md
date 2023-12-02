@@ -90,7 +90,6 @@ $1 \le n \le 100$; $0 \le l_i \le r_i \le 10^9$ for all $i$.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Consider the smallest ending point of a segment:

@@ -90,7 +90,6 @@ it will bring us back to $O(n^2)$ running time, since the total number of such p
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Let us try the most frequently used type of the divide-and-conquer strategy:

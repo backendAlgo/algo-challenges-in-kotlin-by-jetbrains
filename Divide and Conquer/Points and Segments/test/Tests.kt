@@ -29,4 +29,13 @@ class Tests {
     val found = countSegmentsForEach(points, segments)
     assertArrayEquals(expected, found)
   }
+
+  @Test
+  fun sample4() {
+    val points = intArrayOf(1, 6)
+    val segments = arrayOf(0 to 5, -3 to 2, 7 to 10)
+    val expected = intArrayOf(2, 0)
+    val found = countSegmentsForEach(points, segments)
+    assertArrayEquals(expected, found)
+  }
 }

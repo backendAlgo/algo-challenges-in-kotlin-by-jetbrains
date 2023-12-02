@@ -82,7 +82,6 @@ Return a `Long` representing the minimum total sum.
 </div>
 
 <div class="hint">
-
 # Solution
 
 The character can reach point $i$ either from point $i-1$ or

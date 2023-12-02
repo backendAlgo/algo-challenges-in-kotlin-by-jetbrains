@@ -70,7 +70,6 @@ Return an `Int` representing the minimum number of coins.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 The optimal way to change $26$ cents requires seven coins. Let's consider

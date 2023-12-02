@@ -74,7 +74,6 @@ Return an `Int` representing the minimum number of coins.
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Here is the idea: while ${money}>0$, keep taking a coin with the largest denomination that does not exceed

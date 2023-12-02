@@ -85,7 +85,6 @@ down a recurrence relation based on this observation?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Let us focus on $s[0]$ and $s[n-1]$ —— the first and the last

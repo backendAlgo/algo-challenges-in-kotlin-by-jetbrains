@@ -104,7 +104,6 @@ Can you write down a recurrence relation based on this observation?
 
 
 <div class="hint">
-
 ### Solution
 
 An *alignment* of two strings is

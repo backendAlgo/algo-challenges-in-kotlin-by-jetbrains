@@ -79,7 +79,6 @@ Note that in the second example, some other return lists may also be correct.
 
 
 <div class="hint">
-
 ## Solution
 
 Let ${calculator}(n)$ be the minimum number of operations needed

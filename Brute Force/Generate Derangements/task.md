@@ -81,7 +81,6 @@ $4, 0$?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Let $n=5$. What could be the next element in a derangement starting

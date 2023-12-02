@@ -67,8 +67,7 @@ maximum number of pairwise distinct positive integers.
 </div>
 
 <div class="hint">
-
-### Solution
+    ### Solution
 
 It is not difficult to see that one cannot represent 8 as the sum of four
 positive distinct integers.

@@ -85,7 +85,6 @@ the number of segments $[l_j, r_j]$ that contain point $x_i$.
 </div>
 
 <div class="hint">
-
 # Solution
 
 Let $\operatorname{before}(p)$ be the number of segments that end

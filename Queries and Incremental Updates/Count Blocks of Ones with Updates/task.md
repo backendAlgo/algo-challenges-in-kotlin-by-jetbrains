@@ -88,7 +88,6 @@ a starting index of a block?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 Recall that an index $0 \le i < n$

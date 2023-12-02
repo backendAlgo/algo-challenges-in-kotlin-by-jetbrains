@@ -71,7 +71,6 @@ What can you say about $c_1, c_2$ if the smallest unchangeable amount is $2$?
 </div>
 
 <div class="hint">
-
 ### Solution
 
 For a collection of coins $S$, $\operatorname{changeable}(S)$ denotes the set of all amounts

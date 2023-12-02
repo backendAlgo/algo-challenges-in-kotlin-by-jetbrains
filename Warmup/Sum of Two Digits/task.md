@@ -68,7 +68,6 @@ implementing it, testing and debugging your program, and submitting
 it to the grading system.
 
 <div class="hint">
-
 ### Solution
 
 For this trivial problem, we will skip the
